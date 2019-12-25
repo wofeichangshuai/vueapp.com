@@ -4,9 +4,8 @@
     <!-- <HelloWorld/> -->
     <!-- <componentA /> -->
     <!-- <Users /> -->
-    <router-view></router-view>
     <Blog />
-
+    <router-view></router-view>
   </div>
 </template>
 

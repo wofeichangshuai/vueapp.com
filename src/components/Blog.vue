@@ -58,7 +58,7 @@ export default {
   methods: {
     article_click() {
       // alert("qweqwe");
-      this.$router.push("/article/aaa");
+      this.$router.push({ path: "/article" });
     }
   }
 };

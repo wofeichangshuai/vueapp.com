@@ -86,14 +86,16 @@
         From: http://www.hxen.com/yingyuwenzhang/computer-network/security/2008-06-25/42311.html
       </div>
     </div>
-    <router-view></router-view>
   </div>
 </template>
 
 <script>
 import Vue from "vue";
 export default {
-  //   name: "article"
+  name: "article",
+  created() {
+    alert("aaaaaaaaaaaaaaaaa");
+  }
 };
 </script>
 
